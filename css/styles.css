@@ -26,3 +26,75 @@ body {
 .font-black {
     font-weight: 900;
 }
+
+.bg-dark {
+    background-color: #1F2937 !important;
+}
+
+.bg-quote {
+    background-color: #E5E7EB !important;
+}
+
+.text-xl {
+    font-size: 48px;
+}
+
+.text-lg {
+    font-size: 36px;
+}
+
+.text-md {
+    font-size: 24px;
+}
+
+.text-sm {
+    font-size: 18px;
+}
+
+.btn-primary.bg-cta {
+    background-color: #3882F6;
+}
+
+.text-base {
+    color: #1F2937;
+}
+
+.text-secondary {
+    color: #E5E7EB;
+}
+
+.text-hero {
+    color: #F9FAF8;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.header,.footer {
+    background-color: #1F2937 !important;
+}
+
+.header {
+    /* width: 100%; */
+    padding: 8px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.list-style-none {
+    list-style: none;
+}

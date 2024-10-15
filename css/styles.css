@@ -84,17 +84,29 @@ body {
 }
 
 .header {
-    /* width: 100%; */
     padding: 8px;
 }
 
-.nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
 
-.list-style-none {
-    list-style: none;
+.gap-8 {
+    gap: 8px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #3882F6;
 }

@@ -42,6 +42,7 @@ button {
 
 .text-xl {
     font-size: 48px;
+    line-height: 120%;
 }
 
 .text-lg {
@@ -88,27 +89,18 @@ button {
     gap: 8px;
 }
 
-.justify-center {
-    justify-content: center;
-}
-
-.items-center {
-    align-items: center;
-}
-
 .header,.footer {
     background-color: #1F2937 !important;
 }
 
 .header {
     padding: 8px;
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 16px; */
 }
-
-.max-w-md {
+.header * {
     max-width: 768px;
-}
-
-.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
@@ -118,6 +110,9 @@ button {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.navbar h1 {
+    flex: auto;
 }
 
 .mb-16 {
@@ -142,7 +137,6 @@ button {
 .hero {
     display: flex;
     gap: 16px;
-    flex: 1 1 1;
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
@@ -161,6 +155,7 @@ button {
 }
 
 .hero-image {
+    flex: 2 1 auto;
     height: 200px;
     width: 100%;
 }

@@ -1,3 +1,7 @@
+/**
+* ROOT STYLE
+*/
+
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -57,7 +61,7 @@ button {
     font-size: 18px;
 }
 
-.btn-primary.bg-cta {
+.bg-cta {
     background-color: #3882F6;
 }
 
@@ -73,21 +77,21 @@ button {
     color: #F9FAF8;
 }
 
-.flex {
-    display: flex;
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: none;
 }
 
-.flex-col {
-    flex-direction: column;
-}
 
-.gap-4 {
-    gap: 4px;
-}
-
-.gap-8 {
-    gap: 8px;
-}
+/**
+* HEADER STYLE
+*/
 
 .header,.footer {
     background-color: #1F2937 !important;
@@ -95,15 +99,16 @@ button {
 
 .header {
     padding: 8px;
-    /* display: flex;
-    flex-direction: column; */
-    /* gap: 16px; */
 }
-.header * {
+.header>* {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/**
+* NAVBAR STYLE
+*/
 
 .navbar {
     display: flex;
@@ -111,16 +116,9 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.navbar h1 {
-    flex: auto;
-}
 
-.mb-16 {
-    margin-bottom: 16px;
-}
-
-
-.gap-8 {
+.navbar-nav {
+    display: flex;
     gap: 8px;
 }
 
@@ -134,6 +132,10 @@ button {
     color: #3882F6;
 }
 
+/**
+* HERO STYLE
+*/
+
 .hero {
     display: flex;
     gap: 16px;
@@ -143,19 +145,7 @@ button {
     margin-bottom: 24px;
 }
 
-.btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3882F6;
-    color: white;
-    border-radius: 5px;
-    padding: 8px 16px;
-    border: none;
-}
-
 .hero-image {
-    flex: 2 1 auto;
     height: 200px;
     width: 100%;
 }

@@ -44,6 +44,10 @@ button {
     background-color: #E5E7EB !important;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-xl {
     font-size: 48px;
     line-height: 120%;
@@ -100,7 +104,7 @@ button {
 .header {
     padding: 8px;
 }
-.header>* {
+.header>*,.info-section>* {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -148,4 +152,24 @@ button {
 .hero-image {
     height: 200px;
     width: 100%;
+}
+
+.illustration-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.illustration-container {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.illustration-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

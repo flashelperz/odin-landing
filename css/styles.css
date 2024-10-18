@@ -104,7 +104,7 @@ button {
 .header {
     padding: 8px;
 }
-.header>*,.info-section>* {
+.header>*,.info-section>*,.quote-section>* {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -154,6 +154,7 @@ button {
     width: 100%;
 }
 
+/* Info section */
 .illustration-list {
     display: flex;
     align-items: center;
@@ -173,3 +174,4 @@ button {
     flex-direction: column;
     align-items: center;
 }
+

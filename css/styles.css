@@ -104,7 +104,7 @@ button {
 .header {
     padding: 8px;
 }
-.header>*,.info-section>*,.quote-section>* {
+.header>*,.info-section>*,.quote-section>*,.cta {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -178,10 +178,28 @@ button {
 /* Quote section */
 .quote-section {
     padding: 24px 24px;
+    margin-top: 32px;
 }
 
 .quote-author {
     text-align: end;
     font-size: 18px;
     font-weight: 900;
+}
+
+/* CTA section */
+.cta {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 8px;
+    margin-top: 32px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.cta-button>button {
+    border: 1px solid #F9FAF8;
 }

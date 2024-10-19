@@ -5,7 +5,16 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    margin-block: 0px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0.2rem 0px;
 }
 
 button {
@@ -18,18 +27,6 @@ button {
 
 .font-light {
     font-weight: 300;
-}
-
-.font-normal {
-    font-weight: 400;
-}
-
-.font-medium {
-    font-weight: 500;
-}
-
-.font-bold {
-    font-weight: 700;
 }
 
 .font-black {
@@ -92,55 +89,61 @@ button {
     border: none;
 }
 
-
-/**
-* HEADER STYLE
-*/
-
-header,footer {
+/* GENERAL STYLING */
+header,
+footer {
     background-color: #1F2937 !important;
 }
 
-header {
-    padding: 8px;
-}
-header>*,.info-section>*,.quote-section>*,.cta {
+header>*,
+.info-section>*,
+.quote-section>*,
+.cta {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/**
-* NAVBAR STYLE
-*/
 
-.navbar {
+/**
+* HEADER STYLE
+*/
+header {
+    padding: 8px;
+    margin-bottom: 32px;
+}
+
+/** navbar section */
+header>nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 72px;
 }
 
-.navbar-nav {
+nav>.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav>.navbar-nav {
     display: flex;
     gap: 8px;
 }
 
-.nav-link {
+.navbar-nav>.nav-link {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
-.nav-link:hover {
+.navbar-nav>.nav-link:hover {
     color: #3882F6;
 }
 
-/**
-* HERO STYLE
-*/
-
-.hero {
+/** hero section */
+header>.hero {
     display: flex;
     gap: 16px;
     justify-content: space-between;
@@ -149,7 +152,11 @@ header>*,.info-section>*,.quote-section>*,.cta {
     margin-bottom: 24px;
 }
 
-.hero-image {
+.hero>.hero-content>button {
+    margin-top: 8px;
+}
+
+.hero>.hero-image {
     height: 200px;
     width: 100%;
 }

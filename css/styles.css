@@ -97,14 +97,14 @@ button {
 * HEADER STYLE
 */
 
-.header,.footer {
+header,footer {
     background-color: #1F2937 !important;
 }
 
-.header {
+header {
     padding: 8px;
 }
-.header>*,.info-section>*,.quote-section>*,.cta {
+header>*,.info-section>*,.quote-section>*,.cta {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;

@@ -203,3 +203,11 @@ header>*,.info-section>*,.quote-section>*,.cta {
 .cta-button>button {
     border: 1px solid #F9FAF8;
 }
+
+/* Footer section */
+footer {
+    color: #F9FAF8;
+    text-align: center;
+    margin: 24px 0px;
+    padding: 24px;
+}

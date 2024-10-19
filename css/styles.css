@@ -95,9 +95,9 @@ footer {
     background-color: #1F2937 !important;
 }
 
-header>*,
-.info-section>*,
-.quote-section>*,
+header *,
+.info-section *,
+.quote-section *,
 .cta {
     max-width: 768px;
     margin-left: auto;
@@ -114,7 +114,7 @@ header {
 }
 
 /** navbar section */
-header>nav {
+header .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,28 +122,29 @@ header>nav {
     margin-bottom: 72px;
 }
 
-nav>.logo {
+header .navbar .logo {
+    flex: content;
     font-size: 24px;
     color: #F9FAF8;
 }
 
-nav>.navbar-nav {
+header .navbar .navbar-nav {
     display: flex;
     gap: 8px;
 }
 
-.navbar-nav>.nav-link {
+header .navbar-nav .nav-link {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
-.navbar-nav>.nav-link:hover {
+header .navbar-nav .nav-link:hover {
     color: #3882F6;
 }
 
 /** hero section */
-header>.hero {
+header .hero {
     display: flex;
     gap: 16px;
     justify-content: space-between;
@@ -152,13 +153,26 @@ header>.hero {
     margin-bottom: 24px;
 }
 
-.hero>.hero-content>button {
+header .hero .hero-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header .hero .hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header .hero .hero-content button {
     margin-top: 8px;
 }
 
-.hero>.hero-image {
+header .hero .hero-image {
     height: 200px;
     width: 100%;
+    border-radius: 10px;
+    background-color: #E5E7EB;
 }
 
 /* Info section */
@@ -207,7 +221,7 @@ header>.hero {
     color: #F9FAF8;
 }
 
-.cta-button>button {
+.cta-button button {
     border: 1px solid #F9FAF8;
 }
 

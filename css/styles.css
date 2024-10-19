@@ -175,3 +175,13 @@ button {
     align-items: center;
 }
 
+/* Quote section */
+.quote-section {
+    padding: 24px 24px;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 900;
+}

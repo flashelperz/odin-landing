@@ -5,6 +5,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    color: #1F2937;
 }
 
 h1,
@@ -62,14 +63,6 @@ button {
     font-size: 18px;
 }
 
-.bg-cta {
-    background-color: #3882F6;
-}
-
-.text-base {
-    color: #1F2937;
-}
-
 .text-secondary {
     color: #E5E7EB;
 }
@@ -96,7 +89,7 @@ footer {
 }
 
 header *,
-.info-section *,
+.info *,
 .quote-section *,
 .cta {
     max-width: 768px;
@@ -175,25 +168,38 @@ header .hero .hero-image {
     background-color: #E5E7EB;
 }
 
+/**
+* MAIN CONTENT STYLE 
+*/
+
 /* Info section */
-.illustration-list {
+.info {
+    margin-bottom: 32px;
     display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.illustration-container {
-    border: 2px solid #3882F6;
-    border-radius: 5px;
-    width: 100px;
-    height: 100px;
-}
-
-.illustration-item {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
+    gap: 16px;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .info-list {
+    display: flex;
     align-items: center;
+    gap: 32px;
+}
+
+.info .info-list .info-item {
+    text-align: center;
+}
+
+.info .info-list .info-item .info-item-container {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
 }
 
 /* Quote section */

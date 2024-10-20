@@ -90,7 +90,7 @@ footer {
 
 header *,
 .info *,
-.quote-section *,
+.quote *,
 .cta {
     max-width: 768px;
     margin-left: auto;
@@ -203,9 +203,16 @@ header .hero .hero-image {
 }
 
 /* Quote section */
-.quote-section {
-    padding: 24px 24px;
+.quote {
+    padding: 48px;
     margin-top: 32px;
+    background-color: #E5E7EB;
+}
+
+.quote .quote-content {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .quote-author {

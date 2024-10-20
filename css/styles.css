@@ -1,7 +1,6 @@
 /**
 * ROOT STYLE
 */
-
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -15,60 +14,11 @@ h4,
 h5,
 h6,
 p {
-    margin: 0.2rem 0px;
+    margin: 0.2rem 0;
 }
 
 button {
     cursor: pointer;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.font-light {
-    font-weight: 300;
-}
-
-.font-black {
-    font-weight: 900;
-}
-
-.bg-dark {
-    background-color: #1F2937 !important;
-}
-
-.bg-quote {
-    background-color: #E5E7EB !important;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-xl {
-    font-size: 48px;
-    line-height: 120%;
-}
-
-.text-lg {
-    font-size: 36px;
-}
-
-.text-md {
-    font-size: 24px;
-}
-
-.text-sm {
-    font-size: 18px;
-}
-
-.text-secondary {
-    color: #E5E7EB;
-}
-
-.text-hero {
-    color: #F9FAF8;
 }
 
 .btn {
@@ -126,13 +76,13 @@ header .navbar .navbar-nav {
     gap: 8px;
 }
 
-header .navbar-nav .nav-link {
+header .navbar .navbar-nav .nav-link {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
-header .navbar-nav .nav-link:hover {
+header .navbar .navbar-nav .nav-link:hover {
     color: #3882F6;
 }
 
@@ -143,7 +93,7 @@ header .hero {
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 header .hero .hero-content h1 {
@@ -215,7 +165,7 @@ header .hero .hero-image {
     font-style: italic;
 }
 
-.quote-author {
+.quote .quote-author {
     text-align: end;
     font-size: 18px;
     font-weight: 900;
@@ -242,7 +192,7 @@ header .hero .hero-image {
     font-weight: 300;
 }
 
-.cta-button button {
+.cta .cta-button button {
     border: 1px solid #F9FAF8;
 }
 
@@ -250,6 +200,6 @@ header .hero .hero-image {
 footer {
     color: #F9FAF8;
     text-align: center;
-    margin: 24px 0px;
+    margin: 24px 0;
     padding: 24px;
 }
